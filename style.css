@@ -1,0 +1,95 @@
+/*#Green{
+    background-color: green;
+    padding: 10px;
+    margin:20px;
+
+}
+#Blue{
+    background-color: blue;
+    margin:20px;
+    padding: 10px;
+
+}
+#Red{
+    background-color: red;
+    margin:20px;
+    padding: 10px;
+}
+#Random{
+    background-color: orange;
+    margin:20px;
+    padding: 10px;
+}
+h1{
+    font-size: 100px;
+    color: violet;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+button{
+    font-size: 30px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+button-container {
+    display: flex;
+    justify-content: center; 
+    height: 100vh;            
+    flex-wrap: wrap;         
+}*/
+h1{
+    font-size: 100px;
+    color: violet;
+    justify-content: center;
+    
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+/* Flexbox container to center buttons */
+.button-container {
+    display: grif;
+    grid-template-columns:repeat(4,1fr);
+    width: 80%;
+    gap :20px;
+}
+
+
+/* Button styles */
+button {
+    font-size: 20px;
+    padding: 20px 40px;
+   /* Remove large margins */
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    
+}
+
+#Green {
+    background-color: green;
+}
+
+#Blue {
+    background-color: blue;
+}
+
+#Red {
+    background-color: red;
+}
+
+#Random {
+    background-color: orange;
+}
+
